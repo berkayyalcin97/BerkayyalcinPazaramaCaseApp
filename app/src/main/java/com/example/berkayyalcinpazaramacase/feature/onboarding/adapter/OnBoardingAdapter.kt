@@ -13,7 +13,7 @@ class OnBoardingAdapter(fragmentActivity: FragmentActivity,
     FragmentStateAdapter(fragmentActivity) {
 
     override fun getItemCount(): Int {
-        return 3
+        return layouts.size
     }
 
     override fun createFragment(position: Int): Fragment {
