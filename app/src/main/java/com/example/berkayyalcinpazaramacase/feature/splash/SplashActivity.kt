@@ -4,6 +4,7 @@ import android.content.Intent
 import android.content.Intent.getIntent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.example.berkayyalcinpazaramacase.MainActivity
@@ -22,7 +23,7 @@ class SplashActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        navigateToMain()
+        //navigateToMain()
 
         lifecycleScope.launchWhenResumed {
             launch {
@@ -34,11 +35,11 @@ class SplashActivity : AppCompatActivity() {
                         is SplashViewEvent.NavigateToMain -> {
                             navigateToMain()
 
-
                         }
                         is SplashViewEvent.NavigateToLogin -> {
 
                         }
+
                     }
                 }
             }
@@ -47,21 +48,21 @@ class SplashActivity : AppCompatActivity() {
 
     private fun navigateToMain() {
         lifecycleScope.launch {
-            delay(2000)
+            delay(4000)
+
             val intent = Intent(this@SplashActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
     }
 
-
     private fun navigateToOnBoarding() {
         lifecycleScope.launch {
-            delay(2000)
+            delay(4000)
+
             val intent = Intent(this@SplashActivity, OnBoardingActivity::class.java)
             startActivity(intent)
             finish()
         }
     }
-
 }

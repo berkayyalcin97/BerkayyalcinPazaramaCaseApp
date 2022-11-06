@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "997212565057",
+    "project_id": "berkayyalcinpazaramashopapp",
+    "storage_bucket": "berkayyalcinpazaramashopapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997212565057:android:d920c2997f204de530a0c0",
+        "android_client_info": {
+          "package_name": "com.example.berkayyalcinpazaramacase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997212565057-s4n4lmkvji4qhibv0rj1i4ouk2h05b3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.berkayyalcinpazaramacase",
+            "certificate_hash": "f97a681ff6a612f2193a6540b05255bff308fbd1"
+          }
+        },
+        {
+          "client_id": "997212565057-k81ncp3vkkj55t34jqbtpk8i5q0egfbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClE84Kxlv32Gi4r1LP7eproRQFzHxgdvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997212565057-k81ncp3vkkj55t34jqbtpk8i5q0egfbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
