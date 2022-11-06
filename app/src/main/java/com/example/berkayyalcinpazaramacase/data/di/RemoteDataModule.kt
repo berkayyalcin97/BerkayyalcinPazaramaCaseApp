@@ -4,6 +4,7 @@ import android.provider.SyncStateContract
 import com.example.berkayyalcinpazaramacase.data.interceptor.AuthInterceptor
 import com.example.berkayyalcinpazaramacase.data.remote.api.ProductsService
 import com.example.berkayyalcinpazaramacase.data.remote.utils.ConStants
+import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -56,7 +57,10 @@ class RemoteDataModule {
 
     @Provides
     @Singleton
-
     fun provideGsonConverterFactory() = GsonConverterFactory.create()
+
+    @Provides
+    @Singleton
+    fun provideFirebaseService() = FirebaseAuth.getInstance()
 
 }
