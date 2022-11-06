@@ -4,7 +4,7 @@ Berkay Yalcin Pazarama Case Application
 In this Application I made shop app with mvvm architecture.I created splash and onboarding screens alse ı implemented data classes for shop app.
 You can see my work within the following video in the link below:  
 
-https://youtu.be/BpeRA4IQppw
+https://youtu.be/nWRir92ngqg
 
 
 
